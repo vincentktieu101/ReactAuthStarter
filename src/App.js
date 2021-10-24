@@ -3,7 +3,10 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import CheckingSignedIn from "./pages/CheckingSignedIn";
 import Home from "./pages/Home";
-import Profile from "./pages/Profile";
+import Club from "./pages/Profile";
+import DataScience from "./pages/DataScience"
+import Anime from "./pages/Anime"
+
 import Private from "./pages/Private";
 import PageNotFound from "./pages/PageNotFound";
 
@@ -47,7 +50,9 @@ export default function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <PrivateRoute exact path="/profile" component={Profile} />
+          <PrivateRoute exact path="/club" component={Club} />
+          <PrivateRoute exact path="/club1/datascience" component={DataScience} />
+          <PrivateRoute exact path="/club2/anime" component={Anime} />
           <Route path="/" component={PageNotFound} />
         </Switch>
       </BrowserRouter>
