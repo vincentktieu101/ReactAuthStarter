@@ -2,8 +2,7 @@ import React from "react";
 import Spinner from "react-bootstrap/Spinner";
 import styled from "styled-components";
 
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
+import Layout from "../components/Layout"
 
 const CheckingSignedInWrapper = styled.div`
   height: 100vh;
@@ -16,15 +15,10 @@ const CheckingSignedInWrapper = styled.div`
 
 export default function CheckingSignedIn() {
   return (
-    <>
-      <Navbar bg="light" expand="lg">
-        <Container>
-          <Navbar.Brand href="/">ReactGoogleAuthStarter</Navbar.Brand>
-        </Container>
-      </Navbar>
+    <Layout>
       <CheckingSignedInWrapper>
         <Spinner animation="border" role="status" />
       </CheckingSignedInWrapper>
-    </>
+    </Layout>
   );
 }
