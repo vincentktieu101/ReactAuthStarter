@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Container from "react-bootstrap/Container";
 
 import Layout from "../components/Layout";
-import getUser from "../utils/get-user";
+import getUser from "../utils/getUser";
 import DoggoImg from "../images/doggo.jpg";
 
 const Doggo = styled.img`

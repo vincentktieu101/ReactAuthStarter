@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import getUser from "../utils/get-user";
+import getUser from "../utils/getUser";
 import Layout from "../components/Layout";
 import Container from "react-bootstrap/Container";
 
