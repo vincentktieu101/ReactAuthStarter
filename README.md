@@ -1,3 +1,8 @@
+# ============= #
+# UPDATE: This repo hasn't been working since at least 02/2024 #
+You can find an updated version [here](https://github.com/vincentktieu101/react-google-auth-starter)
+# ============= #
+
 # This is some starter code in React with Google Auth
 
 # Adding code to Github
